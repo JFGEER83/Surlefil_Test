@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Compagnie Sur le Fil</title>
+
+</head>
+
+<body>
+    <header class="d-flex m-lr">
+        <div class="logo">
+            <a href="#">
+                <img src="./assets/logos/logo_blanc.jpg" alt="logo">
+            </a>
+        </div>
+   
+    <nav class="topnav" id="myTopnav">
+        <ul class="d-flex">
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="#">La Compagnie</a></li>
+            <li><a href="#">Spectacles</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-icons d-flex">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>   
+    </nav>
+     </header>
+
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script> 
+</body>
+
+</html>
