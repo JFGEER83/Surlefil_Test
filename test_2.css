@@ -63,3 +63,9 @@ color: #FFF;
   font-weight: 300;
   font-size: 2rem;
 }
+.item{
+  background-image: url("assets/img/uneautrehist/MaraDeSario1915_crop.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

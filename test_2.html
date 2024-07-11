@@ -15,13 +15,11 @@
         <h3>Carousel</h3>
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <img class="owl-lazy" data-src="assets/img/uneautrehist/MaraDeSario1915_crop.jpeg" width="100%">
             <h2>Swipe</h2>
             <p>Date spectacles</p>
             <a href="#">Plus d'infos</a>
           </div>
           <div class="item">
-            <img class="owl-lazy" data-src="assets/img/uneautrehist/MaraDeSario2020_crop.jpeg" width="100%">
             <h2>Drag</h2>
             <p>Date spectacles</p>
             <a href="#">Plus d'infos</a>
@@ -42,7 +40,10 @@
               margin: 5,
               loop: true,
               nav: false,
-              lazyLoad: true
+              lazyLoad: true,
+              touchDrag: true,
+              dots: false,
+              lazyLoadEager: 2
             });
           });
     </script>
