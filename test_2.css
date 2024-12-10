@@ -31,13 +31,17 @@ a{
 html{
   font-family: 'Jost';
 } 
-
-.home-demo .item {
-  background: #ff3f4d;
+.home-demo{
+  height: 70vh;
+  width: 100%;
+  border: solid 1px red;
+}
+.item {
+  border: solid purple 1px;
   height: 70vh;
   width: 100%;
 }
-.home-demo h2 {
+.item h2 {
   color: #FFF;
   text-align: center;
   padding: 5rem 0;
@@ -46,7 +50,7 @@ html{
   font-weight: 300;
   font-size: 4rem;
 }
-.home-demo p{
+.item p{
 color: #FFF;
 text-align: center;
   margin: 0;
@@ -54,7 +58,7 @@ text-align: center;
   font-weight: 300;
   font-size: 2rem;
 }
-.home-demo a{
+/*.home-demo a{
 text-decoration: none;
 color: #FFF;
   padding: 1rem 40rem;
@@ -62,10 +66,19 @@ color: #FFF;
   font-style: normal;
   font-weight: 300;
   font-size: 2rem;
-}
-.item{
-  background-image: url("assets/img/uneautrehist/MaraDeSario1915_crop.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
+}*/
+.item a {
+  border: solid blue 1px;
   background-position: center;
+  background-size: cover;  
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 18.33%; /** HEIGHT : WIDTH x 100 **/
+}
+.item a.one {
+  background-image: url('assets/img/uneautrehist/MaraDeSario1915_crop.jpeg');
+}
+.item a.two {
+  background-image: url('assets/img/uneautrehist/MaraDeSario2020_crop.jpeg');
 }
