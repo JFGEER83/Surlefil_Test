@@ -24,11 +24,11 @@
 }
 ul{
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
     height: 100%;
-    width: 60%;
-    margin-left: 12rem;
+    width: 80%;
+    margin-left: 5rem;
 }
 a{
     text-decoration: none;
@@ -58,57 +58,6 @@ a:hover{
     align-items:center;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: rgb(229, 229, 229);
-    font-weight:lighter;
-    font-size: 50px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  
-
-  /* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 /*SECTION HERO*/
 .hero{
     height: 70vh;
@@ -164,7 +113,7 @@ a:hover{
 }
 .span{
     justify-content: space-between;
-    width: 170px;
+    width: 250px;
 }
 .color{
     width: 20px;
@@ -200,7 +149,7 @@ a:hover{
     height: 70vh;
     color: white;
 }
-.info{
+.info_1{
     margin: 0 5em;
     padding: 4rem 2rem;
 }
@@ -239,13 +188,28 @@ a:hover{
 /*SECTION SPECTACLES*/
 .spectacles-pres{
     width:100%;
-    height: 75vh;
+    height: 85vh;
     background-color: rgb(61, 65, 252);
     color: white;
+    padding:1rem;
+}
+.info{
+    margin: 0 5em;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+.span3{
+    justify-content: space-between;
+    width: 350px;
+}
+.container_1{
+    padding: 1rem;
+    width: 100%;
+    height: auto;
 }
 .container_spectacle{
-    border: solid 2px white;
     width: 25%;
+    height: 25%;
     margin-left: 7rem;
 }
 .img_spectacle{
@@ -257,7 +221,6 @@ a:hover{
     height: 35vh;
     padding: 1em;
     align-items: flex-end;
-    border: solid 2px white;
 }
 .img_spectacle h2{
     font-size: 2em;
@@ -278,6 +241,41 @@ a:hover{
 .info_spectacle a{
     color: white;
     font-size: 1.2em;   
+}
+/*SECTION CONTACT*/
+.contact{
+    background-color: gray;
+    width: 100%;
+    color: white;
+}
+.picture_contact {
+    width: 30%;
+}
+.picture_contact img{
+    width: 100%;
+    object-fit: contain;
+}
+.container_contact{
+    width: 70%;
+    color: #ffffff; 
+}
+.titre_contact{
+    padding: 2rem;
+}
+.titre_contact span{
+    font-size: 1.3em;
+}
+.titre_contact h2{
+    font-size: 4rem;        
+}
+.container_coord_contact{
+    justify-content: space-between;
+}
+.coord_contact_1{
+    padding: 2rem;
+}
+.coord_contact_2{
+    padding: 2rem;  
 }
 /*FOOTER*/
 footer{
