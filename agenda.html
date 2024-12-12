@@ -1,49 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SLF_TEST</title>
+    <title>Agenda - SLF_TEST</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/assets/owl/css/owl.carousel.min.css">
-     <!-- Font Awesome for Icons -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!--HEADER-->
-    <header class="d-flex m-lr">
-        <div class="logo">
+    <header>
+        <div class="logo m-lr">
             <a href="/index.html">
                 <img src="./assets/logos/logo_blanc.jpg" alt="logo">
             </a>
         </div>  
-    <nav>
-        <ul class="d-flex">
-            <li><a href="/index.html">Acceuil</a></li>
-            <li><a href="/about.html">La Compagnie</a></li>
-            <li><a href="/spectacles.html">Spectacles</a></li>
-            <li><a href="#">Projets Territoires</a></li>
-            <li><a href="/agenda.html">Agenda</a></li>
-            <li><a href="#">Archives</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="social-icons d-flex">
-        <a href="https://www.instagram.com" target="_blank">
-            <i class="fab fa-instagram fa-lg"></i>
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-            <i class="fab fa-facebook-f fa-lg"></i>
-        </a>
-     </div>
-     </header>
-
-
-<!--FOOTER-->
-  <footer>
-    <div class="info_contact d-flex">
-        <p>Sur le fil Asbl - Rue du chat Parché 34 1180 Leuze - info@surlefil.be</p>
-        <div class="social-icons d-flex">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/about.html">La Compagnie</a></li>
+                <li><a href="/spectacles.html">Spectacles</a></li>
+                <li><a href="/projets_territoires.html">Projets Territoires</a></li>
+                <li><a href="/agenda.html">Agenda</a></li>
+                <li><a href="/archives.html">Archives</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
             <a href="https://www.instagram.com" target="_blank">
                 <i class="fab fa-instagram fa-lg"></i>
             </a>
@@ -51,11 +35,87 @@
                 <i class="fab fa-facebook-f fa-lg"></i>
             </a>
         </div>
-    </div>
-  </footer>
+    </header>
 
-<script src="/jquery-3.7.1.min.js"></script>  
-<script src="/script.js"></script>
-<script src="/assets/owl/js/owl.carousel.min.js"></script>
+    <!--SECTION HERO-->
+    <section class="hero">
+        <div class="hero-picture">
+            <div class="hero-text">
+                <div class="span">
+                    <div class="color"></div>
+                    <span>Agenda</span>
+                </div>
+                <h1>Nos Dates</h1>
+                <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION AGENDA-->
+    <section class="agenda">
+        <div class="info">
+            <div class="span3">
+                <div class="color"></div>
+                <span class="sous-titre">AGENDA</span>
+            </div>
+        </div>
+        <div class="container_1">
+            <div class="container_event">
+                <div class="date_event">
+                    <h2>JAN</h2>
+                    <h3>15</h3>
+                </div>
+                <div class="info_event">
+                    <h3>Titre événement</h3>
+                    <p>Lieu de l'événement</p>
+                    <p>Description de l'événement...</p>
+                    <a class="voir_event" href="#">-> + d'infos</a>
+                </div>
+            </div>
+            <div class="container_event">
+                <div class="date_event">
+                    <h2>FEV</h2>
+                    <h3>20</h3>
+                </div>
+                <div class="info_event">
+                    <h3>Titre événement</h3>
+                    <p>Lieu de l'événement</p>
+                    <p>Description de l'événement...</p>
+                    <a class="voir_event" href="#">-> + d'infos</a>
+                </div>
+            </div>
+            <div class="container_event">
+                <div class="date_event">
+                    <h2>MAR</h2>
+                    <h3>10</h3>
+                </div>
+                <div class="info_event">
+                    <h3>Titre événement</h3>
+                    <p>Lieu de l'événement</p>
+                    <p>Description de l'événement...</p>
+                    <a class="voir_event" href="#">-> + d'infos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="info_contact">
+            <p>Sur le fil Asbl - Rue du chat Parché 34 1180 Leuze - info@surlefil.be</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>

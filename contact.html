@@ -1,93 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SLF_TEST</title>
+    <title>Contact - SLF_TEST</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/assets/owl/css/owl.carousel.min.css">
-     <!-- Font Awesome for Icons -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!--HEADER-->
-    <header class="d-flex m-lr">
-        <div class="logo">
+    <header>
+        <div class="logo m-lr">
             <a href="/index.html">
                 <img src="./assets/logos/logo_blanc.jpg" alt="logo">
             </a>
         </div>  
-    <nav>
-        <ul class="d-flex">
-            <li><a href="/index.html">Acceuil</a></li>
-            <li><a href="/about.html">La Compagnie</a></li>
-            <li><a href="/spectacles.html">Spectacles</a></li>
-            <li><a href="#">Projets Territoires</a></li>
-            <li><a href="/agenda.html">Agenda</a></li>
-            <li><a href="#">Archives</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="social-icons d-flex">
-        <a href="https://www.instagram.com" target="_blank">
-            <i class="fab fa-instagram fa-lg"></i>
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-            <i class="fab fa-facebook-f fa-lg"></i>
-        </a>
-     </div>
-     </header>
-<!--SECTION CONTACT -->
-<section class="contact d-flex">
-    <div class="picture_contact">
-        <img src="/assets/img/uneautrehist/MaraDeSario1915_crop.jpeg" alt="">
-    </div>
-    <div class="container_contact ">
-        <div class="titre_contact">
-            <span>Une question ?</span>
-            <h2>Contactez-nous</h2>
-        </div>
-        <div class="container_coord_contact d-flex">
-            <div class="coord_contact_1">
-                <h4>Téléphone</h4>
-                <a href="tel:+49.157.0156">+49 157 0156</a>
-                <h4>E-mail</h4>
-                <a href="mailto:nowhere@mozilla.org">info@test.be</a>
-            </div>
-            <div class="coord_contact_2">
-                <span>Coordonées</span>
-                <h3>Compagnie SurleFil asbl</h3>
-                <p>Quartier Théâtre<br>
-                    Rue André Renard 27<br>
-                    B-7110 Houdeng Goegnies<br>
-                    RPM : Mons<br>
-                    Numéro d’entreprise : 0428.433.558</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="form">
-    <form action="" method="get" class="form-example">
-        <div class="form-example">
-          <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <div class="form-example">
-          <label for="email">Enter your email: </label>
-          <input type="email" name="email" id="email" required />
-        </div>
-        <div class="form-example">
-          <input type="submit" value="Subscribe!" />
-        </div>
-      </form>
-      
-</section>
-
-<!--FOOTER-->
-  <footer>
-    <div class="info_contact d-flex">
-        <p>Sur le fil Asbl - Rue du chat Parché 34 1180 Leuze - info@surlefil.be</p>
-        <div class="social-icons d-flex">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/about.html">La Compagnie</a></li>
+                <li><a href="/spectacles.html">Spectacles</a></li>
+                <li><a href="/projets_territoires.html">Projets Territoires</a></li>
+                <li><a href="/agenda.html">Agenda</a></li>
+                <li><a href="/archives.html">Archives</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
             <a href="https://www.instagram.com" target="_blank">
                 <i class="fab fa-instagram fa-lg"></i>
             </a>
@@ -95,11 +35,73 @@
                 <i class="fab fa-facebook-f fa-lg"></i>
             </a>
         </div>
-    </div>
-  </footer>
+    </header>
 
-<script src="/jquery-3.7.1.min.js"></script>  
-<script src="/script.js"></script>
-<script src="/assets/owl/js/owl.carousel.min.js"></script>
+    <!--SECTION HERO-->
+    <section class="hero">
+        <div class="hero-picture">
+            <div class="hero-text">
+                <div class="span">
+                    <div class="color"></div>
+                    <span>Contact</span>
+                </div>
+                <h1>Sur le fil</h1>
+                <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION CONTACT-->
+    <section class="contact">
+        <div class="info">
+            <div class="span3">
+                <div class="color"></div>
+                <span class="sous-titre">CONTACT</span>
+            </div>
+            <div class="contact-details">
+                <h2>Contactez-nous</h2>
+                <p>Sur le fil Asbl<br>
+                Rue du chat Parché 34<br>
+                1180 Leuze<br>
+                info@surlefil.be</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Sujet" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="info_contact">
+            <p>Sur le fil Asbl - Rue du chat Parché 34 1180 Leuze - info@surlefil.be</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
